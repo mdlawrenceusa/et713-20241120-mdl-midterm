@@ -1,0 +1,49 @@
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: 0048e668b69c42a6adfbb1181310aa58.vfs.cloud9.us-east-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: 0048e668b69c42a6adfbb1181310aa58.vfs.cloud9.us-east-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: 0048e668b69c42a6adfbb1181310aa58.vfs.cloud9.us-east-1.amazonaws.com
+Started GET "/" for 146.111.194.22 at 2024-11-20 20:34:56 +0000
+Cannot render console from 146.111.194.22! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY) /*application='Blog'*/[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL) /*application='Blog'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Blog'*/[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.0ms | GC: 0.0ms)
+Completed 200 OK in 60ms (Views: 18.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.9ms)
+
+
+Started GET "/" for 146.111.194.22 at 2024-11-20 20:35:01 +0000
+Cannot render console from 146.111.194.22! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.local/share/gem/ruby/gems/railties-8.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 24ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 146.111.194.22 at 2024-11-20 20:46:09 +0000
+Cannot render console from 146.111.194.22! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Blog'*/[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 58.0ms | GC: 22.7ms)
+Completed 200 OK in 128ms (Views: 62.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 22.7ms)
+
+
+Started GET "/assets/application-8b441ae0.css" for 146.111.194.22 at 2024-11-20 20:46:09 +0000
+Cannot render console from 146.111.194.22! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/application-bfcdf840.js" for 146.111.194.22 at 2024-11-20 20:46:09 +0000
+Cannot render console from 146.111.194.22! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/turbo.min-fae85750.js" for 146.111.194.22 at 2024-11-20 20:46:09 +0000
+Cannot render console from 146.111.194.22! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for 146.111.194.22 at 2024-11-20 20:46:09 +0000
+Started GET "/assets/stimulus.min-4b1e420e.js" for 146.111.194.22 at 2024-11-20 20:46:09 +0000
+Cannot render console from 146.111.194.22! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Cannot render console from 146.111.194.22! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/controllers/application-3affb389.js" for 146.111.194.22 at 2024-11-20 20:46:09 +0000
+Cannot render console from 146.111.194.22! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/controllers/hello_controller-708796bd.js" for 146.111.194.22 at 2024-11-20 20:46:09 +0000
+Cannot render console from 146.111.194.22! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/assets/controllers/index-ee64e1f1.js" for 146.111.194.22 at 2024-11-20 20:46:09 +0000
+Cannot render console from 146.111.194.22! Allowed networks: 127.0.0.0/127.255.255.255, ::1
